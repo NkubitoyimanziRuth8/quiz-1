@@ -2,6 +2,7 @@ import React, { useState} from 'react'
 import "./App.css"
 
 function App() {
+  //author ingabire ruth
   const [showFinalResults, setShowFinalResults] = useState(false)
   const [score, setScore] = useState(0)
   const [currentQuestion, setCurrentQuestion] = useState(0)
